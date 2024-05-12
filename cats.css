@@ -1,5 +1,6 @@
 body{
     background-color: #839D9A;
+    front-family: 'Gill Sans MT', Calibri, ;'Trebuchet', sans-serif;
 }
 
 .cat {
@@ -8,8 +9,28 @@ body{
     padding: 1em;
     border-radius: 1em;
     border: 1px solid #7BB2D9;
+    flex: 1;
 }
+@media (min-width: 960px) {
+
+
 
 .cats {
     display: flex;
+      }
+}
+
+fieldset {
+    marging: 1em;
+    border: 0;
+}
+
+buttom{
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
+
+imput {
+    padding: 1em;
 }
